@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>UFI Research</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		
+		<!-- Default favicon (for browsers that don't support media queries in link tags) -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<!-- Light mode favicon -->
+		<link rel="icon" href="images/Logos/FAVICON_BLACK_192.png" type="image/x-icon" media="(prefers-color-scheme: light)">
+		<!-- Dark mode favicon -->
+		<link rel="icon" href="images/Logos/FAVICON_WHITE_192.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					
+					<div class="topnav" id="myTopnav">
+						<a href="index.html"><img src="images/Logos/UFI_RESEARCH_WHITE.svg" width="170px" height="auto"></a>
+						<div class="navbarright">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="ourteam.html">Our Team</a>
+						<a href="services.html">Services</a>
+						<a href="contact.html">Contact</a>
+						<a href="playtest.html">Playtest with us!</a>
+						</div>
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa-solid fa-bars"></i>
+						</a>
+					</div>
+					
+					<div class="topnavalt" id="myTopnavAlt" style="display: none">
+						<a href="index.html"><img src="images/Logos/UFI_RESEARCH_WHITE.svg" width="170px" height="auto"></a>
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="ourteam.html">Our Team</a>
+						<a href="services.html">Services</a>
+						<a href="contact.html">Contact</a>
+						<a href="playtest.html">Playtest with us!</a>
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa-solid fa-bars"></i>
+						</a>
+					</div>
+
+				<!-- Main -->
+					<article id="secondary">
+						<header>
+							<h2>Services Offered</h2>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+							<h3 style="text-align: center; margin-top: -2em; margin-bottom: 3em">Custom and templatized solutions to meet your needs</h3>
+							<div class="box alt">
+								<div class="row uniform 50%">
+								
+									<div class="4u" style="text-align: center">
+										<i onclick="productionButtonLeft()" class="fa-solid fa-egg dragonhighlight"></i>
+										<p style="margin-bottom: 1em">PRE-PRODUCTION</p>
+										<div class="triangle-up" style="display: block" id="serviceArrowLeft"></div>
+									</div>
+									
+									<div class="4u" style="text-align: center">
+										<i onclick="productionButtonCenter()" class="fa-solid fa-kiwi-bird dragonhighlight"></i>
+										<p style="margin-bottom: 1em">PRODUCTION</p>
+										<div class="triangle-up" style="display: none" id="serviceArrowCenter"></div>
+									</div>
+									
+									<div class="4u" style="text-align: center">
+										<i onclick="productionButtonRight()" class="fa-solid fa-dragon dragonhighlight"></i>
+										<p style="margin-bottom: 1em">LAUNCH</p>
+										<div class="triangle-up" style="display: none" id="serviceArrowRight"></div>
+									</div>
+									<div class="12u">
+										<div class="stagepopup" style="display: block; margin-top: -1em" id="productionPopupLeft">
+											<p>Things that matter during the pre-production phase</p>
+											<ul>
+												<li>Identify your audience</li>
+												<li>Understand your competitors</li>
+												<li>Validate concepts</li>
+											</ul>
+										</div>
+										<div class="stagepopup" style="display: none; margin-top: -1em" id="productionPopupCenter">
+											<p>What to pay attention to during the production phase</p>
+											<ul>
+												<li>Improve usability</li>
+												<li>Bunchmark product performance</li>
+												<li>Gather actionable feedback</li>
+												<li>Reveal real user behavior</li>
+											</ul>
+										</div>
+										<div class="stagepopup" style="display: none; margin-top: -1em" id="productionPopupRight">
+											<p>Once you launch you should be thinking about these things too</p>
+											<ul>
+												<li>Unveil outstanding issues</li>
+												<li>Feature iteration</li>
+												<li>Long term community feedback</li>
+											</ul>
+										</div>
+										
+										<!-- Tab links -->
+										<div class="tab">
+											<div class="tablinks active" onclick="openTest(event, 'Usability')">Usability</div>
+											<div class="tablinks" onclick="openTest(event, 'Playtesting')">Playtesting</div>
+											<div class="tablinks" onclick="openTest(event, 'ConceptTesting')">Concept Testing</div>
+											<div class="tablinks" onclick="openTest(event, 'ExpertAnalysis')">Expert Analysis</div>
+											<div class="tablinks" onclick="openTest(event, 'ConsumerInsights')">Consumer Insights</div>
+											<div class="tablinks" onclick="openTest(event, 'MoreTesting')">More</div>
+										</div>
+
+										<!-- Tab content -->
+										<div id="Usability" class="tabcontent" style="display: block">
+											<p>This is a description of usability</p>
+										</div>
+										<div id="Playtesting" class="tabcontent">
+											<p>This is a description of Playtesting</p>
+										</div>
+										<div id="ConceptTesting" class="tabcontent">
+											<p>This is a description of Concept Testing</p>
+										</div> 
+										<div id="ExpertAnalysis" class="tabcontent">
+											<p>This is a description of Expert Analysis</p>
+										</div>
+										<div id="ConsumerInsights" class="tabcontent">
+											<p>This is a description of Consumer Insights</p>
+										</div>
+										<div id="MoreTesting" class="tabcontent">
+											<p><a href="contact.html">Contact us</a> for other options not listed</p>
+										</div> 
+									</div>
+								
+								</div>
+							</div>
+							<a href="contact.html" class="button special fit" style="margin-left: auto; margin-right: auto; max-width: 300px; margin-top: 10em">Contact Us</a>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/company/userfirstresearch/" class="icon fa-brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="contact.html" class="icon fa fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>All Rights Reserved, User First Research, LLC</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/servicespage.js"></script>
+			<script src="assets/js/navbar.js"></script>
+
+	</body>
+</html>
