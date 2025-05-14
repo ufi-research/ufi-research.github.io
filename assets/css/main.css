@@ -4016,7 +4016,6 @@
   font-size: 17px;
   border-bottom: none;
   float: left;
-  text-transform: uppercase;
 }
 
 /* Change the color of links on hover */
@@ -4027,7 +4026,6 @@
 /* Add an active class to highlight the current page */
 .topnav a.activepage {
   color: #e86c6c;
-  /* font-weight: 600; */
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -4084,18 +4082,15 @@
   font-size: 17px;
   border-bottom: none;
   float: left;
-  text-transform: uppercase;
 }
 
 /* Change the color of links on hover */
 .topnavalt a:hover {
-  /* background-color: #ddd; */
   color: #e86c6c;
 }
 
 /* Add an active class to highlight the current page */
 .topnavalt a.activepage {
-  /* background-color: #04AA6D; */
   color: #e86c6c;
   font-weight: 600;
 }
