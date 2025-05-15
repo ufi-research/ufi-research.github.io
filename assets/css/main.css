@@ -3258,10 +3258,18 @@
 /* Header */
 
 	#testimage {
-		width: 50%;
-		min-width: 300px;
-		height: auto; 	
+		width: 100%;
+		max-width: 955px;
+		height: auto;
+		margin-bottom: 1em;
 	}
+
+
+/* @media screen and (max-width: 350px) {
+	#testimage {
+		min-width: 225px;	
+	}
+} */
 
 	#header {
 		-moz-transition: background-color 0.2s ease;
@@ -3652,7 +3660,7 @@
 		background-image: -webkit-linear-gradient(135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
 		background-image: -ms-linear-gradient(135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
 		background-image: linear-gradient(135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
