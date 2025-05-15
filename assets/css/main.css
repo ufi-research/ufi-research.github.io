@@ -3971,7 +3971,7 @@
 
 /* Change background color of buttons on hover */
 .tab div:hover {
-  background-color: rgb(245, 245, 245);
+  background-color: rgba(245, 245, 245, 0.5);
 }
 
 /* Create an active/current tablink class */
@@ -4033,7 +4033,7 @@
   display: none;
 }
 
- /* When the screen is less than 600 pixels wide, hide all links, except for the first one (LOGO). Show the link that contains should open and close the topnav (.icon) */
+ /* When the screen is less than 900 pixels wide, hide all links, except for the first one (LOGO). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav .navbarright {display: none;}
@@ -4100,7 +4100,7 @@
   display: none;
 }
 
- /* When the screen is less than 600 pixels wide, hide all links, except for the first one (LOGO). Show the link that contains should open and close the topnav (.icon) */
+ /* When the screen is less than 900 pixels wide, hide all links, except for the first one (LOGO). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 900px) {
   .topnavalt a:not(:first-child) {display: none;}
   .topnavalt a.icon {
