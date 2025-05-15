@@ -3259,7 +3259,7 @@
 
 	#testimage {
 		width: 50%;
-		min-width: 350px;
+		min-width: 300px;
 		height: auto; 	
 	}
 
@@ -3304,6 +3304,7 @@
 					}
 
 				}
+				
 
 		#header nav {
 			height: inherit;
