@@ -14,10 +14,8 @@ function productionButtonLeft() {
 	y1.style.display = "none";
 	z1.style.display = "none";
   } else {
-    x.style.display = "none";
 	y.style.display = "none";
 	z.style.display = "none";
-	x1.style.display = "none";
 	y1.style.display = "none";
 	z1.style.display = "none";
   }
@@ -33,10 +31,8 @@ function productionButtonCenter() {
 	z1.style.display = "none";
   } else {
     x.style.display = "none";
-	y.style.display = "none";
 	z.style.display = "none";
 	x1.style.display = "none";
-	y1.style.display = "none";
 	z1.style.display = "none";
   }
 }
@@ -52,9 +48,7 @@ function productionButtonRight() {
   } else {
     x.style.display = "none";
 	y.style.display = "none";
-	z.style.display = "none";
 	x1.style.display = "none";
 	y1.style.display = "none";
-	z1.style.display = "none";
   }
 }
