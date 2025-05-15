@@ -11,17 +11,19 @@
   color: #ffffff;
   cursor: pointer;
   width: 100%;
-	border-radius: 3px;
+  border-radius: 3px;
   border: 0;
   text-align: left;
   outline: none;
-	font-size: 0.8em;
-	font-weight: 600;
-	letter-spacing: 0.225em;
-	line-height: 3.125em;
-	padding: 0 2.75em;
-	text-decoration: none;
-	text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.225em;
+  line-height: 3.125em;
+  padding-left: 2.75em;
+  padding-right: 3.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .collapsible:hover {
@@ -30,18 +32,22 @@
 
 .active {
   background-color: #ef5e4a;
-    border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
 }
 
-.collapsible:after {
-  content: '\002B';
-  color: white;
+.collapsible:before {
+  content: "\002B";
+  display: block;
+  color: #ffffff;
   font-weight: bold;
-  float: right;
-  margin-left: 5px;
+  right: 1em;
+  top: auto;
+  bottom: auto;
+  font-size: 1.75em;
+  position: absolute;
 }
 
-.active:after {
+.active:before {
   content: "\2212";
 }
 
@@ -63,7 +69,7 @@
 @media screen and (max-width: 736px) {
 	.collapsible {
 		line-height: 2.125em;
-		padding: 1em 1em;
+		padding: 1em 3.5em 1em 1em;
 	}
 	
 	.faqcontent {
