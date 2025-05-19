@@ -4262,3 +4262,12 @@
 	max-width: 380px;
 	padding: 0;
 }
+
+/* Team Page Bars */
+
+.teambar {
+	margin: 0 1em 1em 1em;
+	border-style: solid none none none;
+	border-width: 2px;
+	border-color: #777;
+}
