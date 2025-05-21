@@ -3975,6 +3975,15 @@
 		}
 	}
 
+/* Playtest Page Hidden Section For Right Align Text */
+
+@media screen and (max-width: 736px) {
+	.smallhide {
+		display: none;
+	}
+}
+
+
 /* Our Team Bubble Animation */
 
 .overlaycontainer {
