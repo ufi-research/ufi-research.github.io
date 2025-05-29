@@ -1,7 +1,3 @@
-.faqlinebreak {
-	padding: 0.25em;
-}
-
 .internalfaqlinebreak {
 	padding: 1.75em 0 1.75em 0;
 }
@@ -41,10 +37,11 @@
   color: #ffffff;
   font-weight: bold;
   right: 1em;
-  top: auto;
-  bottom: auto;
+  top: 50%;
+  bottom: 50%;
   font-size: 1.75em;
   position: absolute;
+  line-height: 0;
 }
 
 .active:before {
@@ -64,6 +61,7 @@
 	text-decoration: none;
     border-radius: 0 0 3px 3px;
 	color: #4E4852;
+	margin-bottom: 0.5em;
 }
 
 @media screen and (max-width: 736px) {
